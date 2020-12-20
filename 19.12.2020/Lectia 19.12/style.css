@@ -1,0 +1,30 @@
+.my-header {
+  background-color: #343a40;
+  height: 56px;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: fixed;
+  top: 0;
+  z-index: 101;
+}
+.container2 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.my-header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+
+}
+.album-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+}
