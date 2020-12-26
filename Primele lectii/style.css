@@ -1,0 +1,36 @@
+ li.color {
+     color: red
+ }
+
+ li.border {
+     border: 2px solid red;
+ }
+
+ li.margin {
+     margin: 20px;
+     border: 2px solid yellow
+ }
+
+ li.padding {
+     padding: 20px;
+     border: 2px solid green;
+ }
+
+ li.height {
+     height: 50px;
+     width: 200px;
+     background-color: chartreuse;
+ }
+
+ li.boxmodel {
+     background-color: lightgray;
+     width: 100px;
+     border: 15px solid green;
+     padding: 50px;
+     margin: 20px;
+ }
+
+ .w100px {
+     width: 100px;
+     background-color: red !important;
+ }
