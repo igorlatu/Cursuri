@@ -8,6 +8,7 @@
   top: 0;
   z-index: 101;
 }
+
 .container2 {
   padding-left: 16px;
   padding-right: 16px;
@@ -19,12 +20,17 @@
   margin-right: auto;
   margin-left: auto;
   max-width: 1200px;
-
 }
+
 .album-logo {
   padding-top: 5px;
   padding-bottom: 5px;
   font-size: 20px;
   align-items: center;
   display: flex;
+}
+
+.card:hover {
+  -webkit-box-shadow: 5px 5px 15px 5px #FFFFFF!important;
+  box-shadow: 5px 5px 15px 5px #FFFFFF !important;
 }
