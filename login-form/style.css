@@ -3,7 +3,7 @@ html, body {
 }
 
 main {
-  height: calc(100% - 40px);
+  height: calc(100%);
   background: rgb(118, 36, 57);
   background: linear-gradient(90deg, rgba(118, 36, 57, 1) 36%, rgba(69, 227, 252, 1) 100%);
   margin-top: 56px;
