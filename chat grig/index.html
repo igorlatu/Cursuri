@@ -7,29 +7,8 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
-  <script>
-    function hideChat() {
-      const chatFooter = document.getElementById('card-footer');
-      const chatBody = document.getElementById('card-body');
+  <script src="myScript.js"></script>
 
-      chatBody.className = chatBody.className + ' d-none';
-      chatFooter.className = chatFooter.className + ' d-none';
-
-      const btn = document.getElementById('btn-chat');
-      btn.setAttribute('onclick', 'showChat()');
-    }
-
-    function showChat() {
-      const chatFooter = document.getElementById('card-footer');
-      const chatBody = document.getElementById('card-body');
-
-      chatBody.className = 'card-body';
-      chatFooter.className = 'card-footer';
-
-      const btn = document.getElementById('btn-chat');
-      btn.setAttribute('onclick', 'hideChat()');
-    }
-  </script>
 </head>
 
 <body>
