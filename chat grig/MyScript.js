@@ -18,4 +18,6 @@ function showChat() {
 
   const btn = document.getElementById('btn-chat');
   btn.setAttribute('onclick', 'hideChat()');
-} 
+}
+
+alert("I am an alert box!");    
