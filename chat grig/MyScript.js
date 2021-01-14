@@ -7,6 +7,7 @@ function hideChat() {
 
   const btn = document.getElementById('btn-chat');
   btn.setAttribute('onclick', 'showChat()');
+  document.getElementById("card-header").style.backgroundColor = "red";
 }
 
 function showChat() {
@@ -18,6 +19,8 @@ function showChat() {
 
   const btn = document.getElementById('btn-chat');
   btn.setAttribute('onclick', 'hideChat()');
+
+  document.getElementById("card-header").style.backgroundColor = "#428bca";
 }
 
 alert("I am an alert box!");
