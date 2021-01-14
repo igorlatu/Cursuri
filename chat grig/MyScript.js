@@ -18,4 +18,4 @@ function showChat() {
 
   const btn = document.getElementById('btn-chat');
   btn.setAttribute('onclick', 'hideChat()');
-}
+} 
