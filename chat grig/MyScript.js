@@ -20,4 +20,4 @@ function showChat() {
   btn.setAttribute('onclick', 'hideChat()');
 }
 
-alert("I am an alert box!");    
+alert("I am an alert box!");
